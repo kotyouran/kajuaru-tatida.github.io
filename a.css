@@ -1,0 +1,87 @@
+.header-wap a{
+  text-decoration: none;
+  color: black;
+}
+
+.menubar{
+  background-color:;
+  padding: 3px;
+
+}
+.header-wap h1{
+  text-align: center;
+}
+.header-wap ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-wap ul li{
+  width: 20%;
+  border: solid 1px ;
+  text-align: center;
+  padding:20px 10px;
+  display: block;
+  font-size: 20px;
+}
+
+.info{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.menu-wap{ 
+  background-color: ;
+}
+
+.menu-wap h2{
+  text-align: center;
+  border-bottom: solid 2px ;
+  margin: 0 100px;
+  padding: 30px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.menu img{
+  width: 500px;
+  margin-left: -150px;
+}
+
+.menu-text{
+  padding-left: 50px;
+}
+
+.tenpo{
+  text-align: center;
+  border-bottom: solid 2px ;
+  margin: 0 100px;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.access{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+
+
+.map iframe{
+  width: 300px;
+  height: 300px;
+  margin-left: -100px;
+}
+
+.map-text{
+  margin-left: 50px;
+}
