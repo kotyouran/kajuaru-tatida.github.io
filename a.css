@@ -1,39 +1,79 @@
+body{
+  background-image: url(image/haikei2_0002.png);
+  font-family: serif;
+}
+
+.header-wap{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-image: url(image/haikei2_0002.png);
+  z-index: 10;
+}
+
 .header-wap a{
   text-decoration: none;
-  color: black;
+  color: rgb(7, 61, 61);
+  display: block;
+  padding: 5px 0;
+}
+
+.header-wap h1 img{
+  height: 110px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .menubar{
-  background-color:;
-  padding: 3px;
+  margin-top:-30px;
+  margin-bottom: 20px;
+  height: 50px;
+}
 
-}
-.header-wap h1{
-  text-align: center;
-}
 .header-wap ul{
   list-style: none;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  padding-left: 0;
+  
 }
+
+
 
 .header-wap ul li{
-  width: 20%;
-  border: solid 1px ;
+  width: 25%;
+  border-right: solid 1px ;
   text-align: center;
-  padding:20px 10px;
-  display: block;
   font-size: 20px;
+  margin-top: 5px;
 }
 
+.header-wap ul li:first-child{
+  border-left: solid 1px;
+}
 .info{
   text-align: center;
-  margin-bottom: 100px;
+  margin: 0 auto 100px;
+  background-image: url(image/haikei5_0001.png);
+  width: 80%;
 }
 
-.menu-wap{ 
-  background-color: ;
+
+.info img{
+  width: 70%;
+  height: 400px;
+}
+
+.info p{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.menu-wap{
+  background-image: url(image/haikei5_0001.png);
+  width: 80%;
+  margin: 0 auto;
 }
 
 .menu-wap h2{
@@ -48,26 +88,38 @@
   flex-direction: row;
   justify-content: center;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .menu img{
   width: 500px;
-  margin-left: -150px;
+  height: 300px;
 }
 
 .menu-text{
   padding-left: 50px;
+  width: 300px;
 }
 
+.menu-text h3{
+  font-size: 20px;
+}
 .tenpo{
+  background-image: url(image/haikei5_0001.png);
+  text-align: center;
+  width: 80%;
+  margin:100px auto 50px;
+}
+
+.tenpo h2{
   text-align: center;
   border-bottom: solid 2px ;
-  margin: 0 100px;
-  padding-top: 100px;
-  margin-bottom: 50px;
+  margin: 30px 100px;
+  padding: 30px;
 }
 
 .access{
+  padding-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -77,11 +129,22 @@
 
 
 .map iframe{
-  width: 300px;
+  width: 500px;
   height: 300px;
   margin-left: -100px;
 }
 
 .map-text{
   margin-left: 50px;
+}
+
+
+.fa-line{
+  font-size: 50px;
+  width: 30px;
+  color: rgb(11, 187, 11);
+}
+
+.menu-info{
+  margin-top: -20px;
 }
