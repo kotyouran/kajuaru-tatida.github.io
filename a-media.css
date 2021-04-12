@@ -1,0 +1,102 @@
+@media screen and (max-width: 600px){
+
+.korona{
+  width: 100%;
+}
+
+    .header-wap{
+      width: 100%;
+      height: 100px;
+    }
+    
+    .header-wap a{
+      color: white;
+    }
+    .header-wap h1 img{
+      width: 100%;
+      height: 100px;
+     } 
+
+.header-wap ul{
+  display: block;
+  margin-top: -40px;
+  margin-left: -20px;
+ }
+
+ .header-wap ul li{
+  display: none;
+ }
+
+
+.info{
+  width: 100%;
+  background-image: none;
+}
+
+.info img{
+  width: 100%;
+  height: 300px;
+}
+
+.info p{
+  font-size: 25px;
+}
+
+
+.menu-wap{
+  background-image: none;
+  width: 100%;
+}
+
+.menu-wap h2{
+  margin: 0;
+  font-size: 30px;
+  margin-top: -50px;  
+}
+
+.menu{
+  display: block;
+}
+.menu img{
+  width: 100%;
+  background-image: none;
+}
+
+.menu-text{
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+
+ 
+.tenpo{
+  background-image: none;
+  margin: 50px 0;
+  width: 100%;
+}
+
+.tenpo h2{
+  width: 80%;
+  margin: 0;
+  text-align: center;
+}
+
+.access{
+  display: block;
+}
+
+.map iframe{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+}
+
+.map-text{
+  margin: 0;
+}
+
+
+
+}
