@@ -1,5 +1,7 @@
 @media screen and (max-width: 600px) {
     
+    @import url(‘https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap&subset=japanese’);
+    
     body{
         font-family: "游明朝", 'Noto Serif JP'、serif;
         margin: 0;
