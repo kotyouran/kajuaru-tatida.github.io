@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
     
     body{
-        font-family: "游明朝";
+        font-family: "游明朝", 'Noto Serif JP'、serif;
         margin: 0;
         padding: 0;
         background: url(image/wasi.jpg);
