@@ -3,7 +3,7 @@
     @import url(‘https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap&subset=japanese’);
     
     body{
-        font-family: "游明朝", 'Noto Serif JP'、serif;
+        font-family: "游明朝", 'Noto Serif JP',serif;
         margin: 0;
         padding: 0;
         background: url(image/wasi.jpg);
