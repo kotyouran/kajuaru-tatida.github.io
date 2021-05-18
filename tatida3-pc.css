@@ -1,0 +1,226 @@
+@media screen and (min-width: 601px) {
+
+    @import url(‘https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap&subset=japanese’);
+    
+    
+body{
+    font-family: "游明朝", 'Noto Serif JP',serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background: url(image/wasi.jpg);
+    color: white;
+    
+    max-width: 1200px;
+}
+ 
+.header-wrap{
+    display: flex;
+    margin: 0 auto;
+}
+
+.header-left{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+.header-logo h1 img{
+    width: 70%;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.header-left a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    padding: 20px;
+}
+.header-left ul{
+    list-style: none;
+    writing-mode: vertical-rl;
+    letter-spacing: 0.3em;
+    text-align: left;
+    line-height: 2;
+    margin: 0 auto;
+    
+}
+
+.header-left li{
+    font-family: "游明朝";
+    font-size: 20px;
+}
+
+.header-right{
+    width: 70%;
+
+}
+
+.header-right img{
+    width: 70%;
+    height: 70%;
+    z-index: 100;
+    border-radius: 50%;
+    border: solid 5px rgb(55, 0, 0);
+}
+
+.right-nav{
+    height: 50px;
+    background: rgba(22, 22, 22, 0.5);
+    margin-left: 10%;
+}
+
+
+
+.back{
+    background:rgba(53, 0, 0, 0.5);
+    width: 50%;
+    height: 450px;
+    transition: 0.3;
+    margin-top: -34%;
+    margin-left: 25%;
+}
+
+/* コロナ--------------------------------------------------*/
+.korona {
+    text-align: center;
+    font-size: large;
+    border: double ;
+}
+
+.korona span {
+    color: red;
+}
+
+/*INFO--------------------------------------------*/
+.info {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+
+/*h2-------------------------------------------*/
+.bar {
+    margin:100px 5% 30px;
+    background: rgba(164, 244, 250, 0.5);
+    border-radius: 10px;
+    border-bottom: solid 1px rgb(72, 20, 194);
+    border-top: solid 1px rgb(72, 20, 194);
+}
+
+h2{
+    border-left: solid 7px orange;
+    padding-left: 20px;
+    margin: 10px 20px;
+}
+
+/*メニュー--------------------------------------------*/
+.menu-wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    width: 95%;
+    margin: 10px auto 50px;
+    padding-bottom: 30px;
+}
+
+.food {
+    width: 50%;
+}
+.food img {
+    width: 100%;
+    height: 400px;
+    border: double rgb(135, 150, 3);
+}
+
+.menu-text {
+    width: 50%;
+    margin: 0 auto ;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.menu-text h3 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.menu-text h4 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.menu-text p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.menupage {
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    display: block;
+    padding-right: 100px;
+}
+
+
+/*お店の雰囲気--------------------------------------------*/
+.atmosphere {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.atmosphere img {
+    width: 30%;
+    border: solid;
+    border-radius: 10px;
+}
+
+.atmosphere-text p {
+    font-size: 25px;
+    text-align: center;
+}
+
+/*アクセス--------------------------------------------*/
+.access {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.map {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 350px;
+    
+}
+ .map-text {
+     width: 30%;
+     margin-left: 50px;
+ }
+
+/*LINEアイコン--------------------------------------------*/
+.fa-line {
+    font-size: 40px;
+    color: green;
+}
+
+
+
+
+}
