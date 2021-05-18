@@ -167,6 +167,9 @@ h2{
 
 .atmosphere img {
     width: 70%;
+    border: solid;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .atmosphere-text p {
