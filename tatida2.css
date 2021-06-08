@@ -1,3 +1,9 @@
+@media screen and (max-width: 1020px) {
+    .header-nav ul li{
+        display: none;
+    }
+}
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -74,7 +80,7 @@ header {
     position: absolute;
     top: 0;
     left: 20px;
-    animation: header-image 10s;
+    animation: header-image 20s;
     object-fit: none;
     object-position:50% 60%;
 }
@@ -158,11 +164,19 @@ header {
     margin: 10px 20px 30px ;
 }
 
+.welcome-text h3 {
+    font-size: 23px;
+}
+.welcome-text p {
+    font-size: 18px;
+}
+
 .welcome-image {
     width: 50%;
     height: 400px;
     position: relative;
     display: inline-block;
+    
 }
 
 .welcome-image:after {
@@ -228,7 +242,7 @@ header {
 .menu h5 {
     font-family: 'Damion', cursive;
     font-weight: 100;
-    font-size: 50px;
+    font-size: 30px;
     margin: 30px 0 0;
 }
 
@@ -284,9 +298,8 @@ header {
     margin: 0px auto 100px;
 }
 
-.food-image {
+.food-image img {
     width: 100%;
-    background: url(image/food2.png);
 }
 
 .food-text {
