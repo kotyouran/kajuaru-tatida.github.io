@@ -1,0 +1,189 @@
+@media screen and (max-width: 600px) {
+    
+    @import url(‘https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap&subset=japanese’);
+    
+    
+    body{
+        font-family: "游明朝", 'Noto Serif JP'、serif;
+        margin: 0;
+        padding: 0;
+    }
+
+.header-nav ul {
+    display: none;
+}
+
+.header-nav p {
+    display: none;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.header img {
+    width: 100%;
+    height: 250px;
+    left: 0;
+    object-fit: cover;
+    object-position: 50% 60%;
+}
+
+
+/* コロナ--------------------------------------------------*/
+.korona {
+    width: 100%;
+}
+
+.korona span {
+    color: red;
+}
+
+/*welcome--------------------------------------------*/
+.welcome {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.welcome-text {
+    width: 100%;
+    margin: 0;
+}
+
+.welcome-image {
+    width: 100%;
+}
+
+.welcome img {
+    height: 300px;
+}
+
+
+
+
+
+
+/*h2-------------------------------------------*/
+.bar {
+    width: 100%;
+}
+
+
+
+/*メニュー--------------------------------------------*/
+.menu-wrap {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    clip-path: none;
+    display: block;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.menu img {
+    width: 100%;
+    border-radius: 0%;
+}
+
+.menu-text {
+    width: 100%;
+    z-index: 0;
+}
+
+.menu:after {
+    display: none;
+}
+
+.menu-wrap:nth-of-type(2) {
+    clip-path: none;
+}
+
+.menu2 {
+    flex-direction: column;
+}
+
+.menu2 img {
+    width: 100%;
+    height: 250px;
+}
+
+/*food--------------------------------------------*/
+.food-wrap {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.food-image {
+    display: block;
+}
+.food-text {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+}
+
+/*--------------------osake------------------*/
+.osake {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.osake-text {
+    width: 100%;
+    padding: 10px;
+}
+
+.osake-text:after {
+    height: 300px;
+}
+
+.osake img {
+    width: 100%;
+    height: px;
+}
+
+
+/*アクセス--------------------------------------------*/
+.access {
+    width: 100%;
+    margin: 0px auto 50px;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+}
+
+.map {
+    width: 100%;
+    margin: 0;
+}
+.map iframe {
+    width: 100%;
+    height: 250px;
+}
+
+.map-text {
+    width: 100%;
+    margin: 0;
+}
+
+/*LINEアイコン--------------------------------------------*/
+.fa-line {
+    font-size: 40px;
+    color: green;
+}
+
+
+
+}
