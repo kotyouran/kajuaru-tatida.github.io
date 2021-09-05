@@ -17,6 +17,10 @@
     display: none;
 }
 
+.header-nav h1 {
+     font-size: 21px;
+}
+
 .header {
     width: 100%;
     margin: 0 auto;
@@ -37,7 +41,7 @@
 
 /* コロナ--------------------------------------------------*/
 .korona {
-    width: 100%;
+    width: 98%;
 }
 
 .korona span {
@@ -60,11 +64,16 @@
     width: 100%;
 }
 
-.welcome img {
+.welcome-image  {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
     height: 300px;
 }
 
-
+.welcome-image img {
+    height: auto;
+}
 
 
 
@@ -82,18 +91,28 @@
     height: auto;
     text-align: center;
     clip-path: none;
-    display: block;
+  
 }
+
 
 .menu {
     width: 100%;
     height: auto;
-    display: block;
+    flex-direction: column-reverse;
+}
+.menu2 {
+    flex-direction: column-reverse;
 }
 
 .menu img {
     width: 100%;
     border-radius: 0%;
+    height: 250px;
+    object-position: 50%;
+}
+
+.menu1 img{
+    height: 200px;
 }
 
 .menu-text {
@@ -108,10 +127,6 @@
 
 .menu-wrap:nth-of-type(2) {
     clip-path: none;
-}
-
-.menu2 {
-    flex-direction: column;
 }
 
 .menu2 img {
@@ -132,20 +147,21 @@
 }
 .food-text {
     width: 100%;
-    padding: 5px;
+    padding: 0px;
     margin: 0;
 }
 
 /*--------------------osake------------------*/
 .osake {
     width: 100%;
+    padding-right: 0px;
     display: block;
     height: auto;
     margin-bottom: 100px;
 }
 
 .osake-text {
-    width: 100%;
+    width: 90%;
     padding: 10px;
 }
 
@@ -155,7 +171,7 @@
 
 .osake img {
     width: 100%;
-    height: px;
+    margin: 0;
 }
 
 
