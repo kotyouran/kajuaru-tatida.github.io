@@ -151,29 +151,22 @@ header {
 }
 
 .welcome-text {
+    z-index: 10;
     width: 50%;
-    padding-right: -100px;
-    margin-left: 100px;
-    margin-top: 30px;
+    margin-left: 20%;
+    margin-top: 100px;
 }
 
-.welcome-text h5 {
-    font-family: 'Damion', cursive;
-    font-size: 40px;
-    font-weight: 100;
-    margin: 10px 20px 30px ;
-}
 
-.welcome-text h3 {
-    font-size: 23px;
-}
 .welcome-text p {
     font-size: 18px;
 }
 
 .welcome-image {
-    width: 50%;
+    width: 600px;
     height: 400px;
+    padding-right: 100px;
+    margin-left: -200px;
     position: relative;
     display: inline-block;
     
@@ -232,6 +225,10 @@ header {
     content: "";
     background: radial-gradient(circle at left,rgb(255, 255, 255,0)60%, rgb(255, 255, 255) 100%);
     clip-path: circle();
+}
+
+.anniversary {
+    object-fit: contain;
 }
 
 .menu-text {
