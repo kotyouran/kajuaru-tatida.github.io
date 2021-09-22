@@ -213,9 +213,12 @@ header {
     position: relative;
     object-fit: cover;
     object-position: 20% 0%;
+    
 }
 
-
+.menu1 img {
+    object-position: 70% 50%;
+}
 
 .menu:after {
     display: block;
@@ -225,16 +228,34 @@ header {
     content: "";
     background: radial-gradient(circle at left,rgb(255, 255, 255,0)60%, rgb(255, 255, 255) 100%);
     clip-path: circle();
+
 }
 
-.anniversary {
-    object-fit: contain;
-}
 
 .menu-text {
     text-align: center;
     width: 50%;
     z-index: 100;
+    padding-left: 20px;
+}
+
+.menu-text2 {
+    margin-left: -80px;
+    padding-left: 0;
+}
+
+.menu-text p {
+    padding-left: 30px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+.kuro {
+    font-size: 25px;
+    color: black;
+    padding-left: 50px;
 }
 .menu h5 {
     font-family: 'Damion', cursive;
@@ -250,17 +271,9 @@ header {
 
 .menu-text p {
     font-size: 20px;
+    text-align: left;
 }
 
-.button {
-    padding: 5px 10px;
-    background-color: rgb(36, 35, 35);
-}
-
-.button a {
-    text-decoration: none;
-    color: white;
-}
 
 .menu-wrap:nth-of-type(2) {
     clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 60%);
@@ -271,6 +284,7 @@ header {
     background-color: rgba(255, 238, 0, 0.3);
 
 }
+
 
 .menu2 {
     flex-direction: row-reverse;
@@ -302,7 +316,7 @@ header {
 .food-text {
     width: 50%;
     height: 60%;
-    text-align: center;
+    text-align: left;
     margin: auto;
     background-color: rgba(0,0,0,0.8);
     color: white;
@@ -348,6 +362,7 @@ header {
     text-align: center;
     padding: 50px;
     width: 30%;
+    padding-top: 120px;
     position: relative;
 }
 
@@ -377,8 +392,8 @@ header {
 
 .map iframe {
     width: 100%;
-    height: 350px;
-    
+    height: 450px;
+    padding-top: 30px;
 }
  .map-text {
      width: 30%;
