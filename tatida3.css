@@ -18,9 +18,12 @@
 }
 
 .header-nav h1 {
-     font-size: 21px;
+     font-size: 28px;
 }
 
+header {
+    height: 60px;
+}
 .header {
     width: 100%;
     margin: 0 auto;
@@ -48,6 +51,14 @@
     color: red;
 }
 
+.media-text {
+    display: inline-block;
+}
+
+.media-text2 {
+    display: inline-block;
+    color: black!important;
+}
 /*welcome--------------------------------------------*/
 .welcome {
     width: 100%;
@@ -112,16 +123,29 @@
     object-position: 50%;
 }
 
-.menu1 img{
-    height: 200px;
+.menu-img-frame {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.anniversary {
+    transform: scale(1.4);
 }
 
 .menu-text {
     width: 100%;
     z-index: 0;
-    padding-bottom: 5px;
+    padding: 0 0 5px 0;
 }
 
+.menu-text p {
+    padding-left: 0;
+    text-align: center;
+}
+.menu-text2 {
+    margin: 0;
+}
 .menu:after {
     display: none;
 }
@@ -147,6 +171,7 @@
     display: block;
 }
 .food-text {
+    text-align: center;
     width: 100%;
     padding: 0px;
     margin: 0;
@@ -164,10 +189,12 @@
 .osake-text {
     width: 90%;
     padding: 10px;
+    margin: 50px 0;
 }
 
 .osake-text:after {
     height: 300px;
+    margin-top: -70px;
 }
 
 .osake img {
@@ -191,7 +218,7 @@
 }
 .map iframe {
     width: 100%;
-    height: 250px;
+    height: 400px;
 }
 
 .map-text {
