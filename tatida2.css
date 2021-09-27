@@ -138,7 +138,10 @@ header {
 .korona span {
     color: red;
 }
-
+.media-text2 {
+    display: inline-block;
+    color: black!important;
+}
 
 
 
