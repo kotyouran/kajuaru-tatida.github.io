@@ -124,7 +124,14 @@ header {
     font-family: 'Damion', cursive;
 }
 
+.calendar {
+    text-align: center;
+}
 
+.calendar iframe{
+    width: 80%;
+    height: 500px;
+}
 /*------------------------korona---------------------------*/
 .korona {
     width: 80%;
@@ -143,6 +150,14 @@ header {
     color: black!important;
 }
 
+.korona-img {
+    text-align: center;
+    margin-bottom: -50px;
+}
+.korona-img img {
+    width: 80%;
+    padding-right: 50px;
+}
 
 
 /*------------------------------Welcom---------------------*/
