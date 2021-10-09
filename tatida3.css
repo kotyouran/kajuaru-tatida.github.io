@@ -70,6 +70,11 @@ header {
     margin: 15px 0 -10px -15px;
     width: 100%;
 }
+
+.calendar iframe {
+    margin-top: -50px;
+    width: 100%;
+}
 /*welcome--------------------------------------------*/
 .welcome {
     width: 100%;
