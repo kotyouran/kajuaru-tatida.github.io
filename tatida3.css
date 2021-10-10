@@ -98,6 +98,10 @@ header {
     height: 300px;
 }
 
+.welcome-image::after {
+    display: none
+}
+
 .welcome-image img {
     height: auto;
 }
