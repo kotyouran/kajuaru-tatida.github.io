@@ -98,7 +98,7 @@ header {
     height: 300px;
 }
 
-.welcome-image::after {
+.welcome-image:after {
     display: none
 }
 
