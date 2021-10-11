@@ -117,12 +117,17 @@ header {
 
 
 /*メニュー--------------------------------------------*/
+.content {
+    margin-top: -120px;
+}
+
 .menu-wrap {
     width: 100%;
     height: auto;
     text-align: center;
     clip-path: none;
     margin-bottom: 100px;
+    margin-top: 0px;
   
 }
 
