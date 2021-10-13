@@ -61,14 +61,14 @@ header {
 }
 
 .korona-img img {
-    width: 100%;
+    width: 80%;
     padding: 0;
+    position: static;
 }
 
 .korona-img {
-    transform: scale(1.2);
-    margin: 15px 0 -10px -15px;
     width: 100%;
+    margin-top: 10px;
 }
 
 .calendar iframe {
@@ -206,7 +206,9 @@ header {
     padding: 0px;
     margin: 0;
 }
-
+ .food-text p span {
+     padding: 0;
+ }
 /*--------------------osake------------------*/
 .osake {
     width: 100%;
@@ -219,7 +221,7 @@ header {
 .osake-text {
     width: 90%;
     padding: 10px;
-    margin: 50px 0;
+    margin: 50px 0 50px 10px;
 }
 
 .osake-text:after {
@@ -230,6 +232,7 @@ header {
 .osake img {
     width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 
